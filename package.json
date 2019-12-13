@@ -8,7 +8,7 @@
     "react-native": "*"
   },
   "dependencies": {
-    "@unimodules/core": "^2.0.0",
+    "@unimodules/core": "^4.0.0",
     "expo-media-library": "^5.0.1",
     "react-native-safe-area-view": "^0.14.6"
   },
