@@ -1,8 +1,8 @@
 {
   "name": "expo-multiple-media-imagepicker",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Multiple image selecting package for React Native using Expo MediaLibrary.",
-  "homepage": "https://github.com/hyakt/expo-multiple-media-imagepicker",
+  "homepage": "https://github.com/SPKLTARMAC/expo-multiple-media-imagepicker",
   "main": "src/index.js",
   "peerDependencies": {
     "react-native": "*"
@@ -39,9 +39,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyakt/expo-multiple-media-imagepicker.git"
+    "url": "https://github.com/SPKLTARMAC/expo-multiple-media-imagepicker.git"
   },
   "bugs": {
-    "url": "https://github.com/hyakt/expo-multiple-media-imagepicker/issues"
+    "url": "https://github.com/SPKLTARMAC/expo-multiple-media-imagepicker/issues"
   }
 }
