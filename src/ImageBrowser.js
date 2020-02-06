@@ -24,7 +24,8 @@ export default class ImageBrowser extends React.Component {
       photos: [],
       selected: [],
       after: null,
-      hasNextPage: true
+      hasNextPage: true,
+      dataFetched: false,
     }
   }
 
@@ -75,7 +76,8 @@ export default class ImageBrowser extends React.Component {
     this.setState({
       photos: [...this.state.photos, ...displayAssets],
       after: assets.endCursor,
-      hasNextPage: assets.hasNextPage
+      hasNextPage: assets.hasNextPage,
+      dataFetched: true,
     })
   }
 
@@ -175,7 +177,8 @@ export default class ImageBrowser extends React.Component {
     return (
       <View style={styles.container}>
         {this.renderHeader()}
-        {this.renderImages()}
+        {!this.state.dataFetched && this.renderLoading()}
+        {this.state.dataFetched && this.renderImages()}
       </View>
     )
   }
